@@ -1,0 +1,83 @@
+/* reset defaullt Browser style */
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+input,
+li {
+  margin: 80px;
+  padding: 0px;
+}
+
+/* Progress bar background color light grey */
+.pogressbar-light-grey {
+  color: #000 !important;
+  background-color: #f1f1f1 !important;
+}
+/* rounded border */
+.pogressbar-round-xlarge {
+  border-radius: 16px;
+}
+
+.pogressbar-white {
+  color: black !important;
+  background-color: white !important;
+  border: 1px solid black;
+}
+
+/* stipe the progerss bar */
+.loader {
+  height: 20px;
+  width: 80%;
+  margin: 0;
+  background-image: linear-gradient(
+    -45deg,
+    rgba(255, 255, 255, 0.15) 25%,
+    transparent 25%,
+    transparent 50%,
+    rgba(255, 255, 255, 0.15) 50%,
+    rgba(255, 255, 255, 0.15) 75%,
+    transparent 75%,
+    transparent
+  );
+  background-size: 1rem 1rem;
+}
+/* progress bar background color */
+.blue-loader-stripes {
+  background-color: #007bff;
+}
+
+.red-loader-stripes {
+  background-color: #dc3545 !important;
+}
+
+.yellow-loader-stripes {
+  background-color: #ffc107;
+}
+
+.purple-loader-stripes {
+  background-color: #563d7c;
+}
+
+.green-loader-stripes {
+  background-color: #28a745;
+}
+.white-loder {
+  background-color: white;
+  border-color: #000;
+}
+/* button style */
+.pogressbar-green {
+  color: #fff !important;
+  background-color: #4caf50 !important;
+}
+.pogressbar-button {
+  border: none;
+  display: inline-block;
+  padding: 8px 16px;
+  text-align: center;
+}
